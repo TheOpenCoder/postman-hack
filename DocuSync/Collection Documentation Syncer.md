@@ -66,6 +66,8 @@
 - ### And for that reason it requires the User's API Key.
 
 - ### Docusync uses Postman Monitor for constantly checking for new updates in [Github](https://github.com/) file and syncing with Postman.
+- ### Once if it finds any updates in the Github repository it will parse the MarkDown file using the custom parse function that I have written.
+- ### The parsed text is then stored as a environment variable and then used to set the documentation in postman.
 
 ---
 
@@ -118,4 +120,4 @@
 #### *[Get Postman API Key](https://learning.postman.com/docs/developer/intro-api/)*
 ####  *[Learn MarkDown](https://www.markdownguide.org/cheat-sheet/)*
 
-#### Made with ❤️
+#### Made with ❤️ by Naveen.
