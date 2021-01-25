@@ -121,11 +121,13 @@
 #### *[Note: Since the Create Project in One Go and Delete Project in One Go does not need a Monitor they were not created]*
 ---
 # Points to Note: ❌
+- ### All the Collections inside of this Workspace has the be run as a collection using Postman Runner of better results.
 - ### Use the right Environment, Mock Server and Monitor for the right Collection. The Pairs are mentioned above.
 - ### All the Workspace, Collection and the Request used in Docusync Should be unique as DocuSync searches through your Postman Account and finds the resource manually. So there might occur a concurrency problem if there are two are more Workspace, Collection in your Postman Account with a same name.
+- ### Set the monitor's frequency as 5 minutes for faster syncing (This varies as per your billing type)
 - ### Take a look into each environments and fill out according to the instructions provided in the placeholder descriptions of each environmental variables.
 ---
-## ❤️ [If you think DocuSync is useful to you and you found value in it. Contribute to this public workspace.]
+## ❤️ If you think DocuSync is useful to you and you found value in it. Contribute to this public workspace.
 ---
 # References: 📄
 #### *[Get Github API Token](https://github.com/settings/tokens)*
