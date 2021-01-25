@@ -3,7 +3,7 @@
 
 # Elevator Pitch: 💯
 
-> ### *\"We developers have heard from time to time that documentation is more important than the code itself. So is the documentation for APIs. [Postman provides a markdown editor](https://learning.postman.com/docs/collaborating-in-postman/commenting-on-collections/#commenting-on-a-collection) to document a Workspace, Collection, or even a Request and I have been contemplating for a while on how to integrate version controlling with Postman's Documentation editor. That is where [Github](https://github.com/) comes to play. How about a markdown file in your Github repository that syncs automatically with your Postman workspace leveraging the power of [Postman's monitors](https://learning.postman.com/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/).\"* :smiley:
+> ### *\"We developers have heard from time to time that documentation is more important than the code itself. So is the documentation for APIs. [Postman provides a markdown editor](https://learning.postman.com/docs/collaborating-in-postman/commenting-on-collections/#commenting-on-a-collection) to document a Workspace, Collection, or even a Request and I have been contemplating for a while on how to integrate version controlling with Postman's Documentation editor. That is where [Github](https://github.com/) comes to play. How about a markdown file in your Github repository that syncs automatically with your Postman workspace leveraging the power of [Postman's monitors](https://learning.postman.com/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/).\"*
 
 ---
 
