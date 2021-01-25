@@ -20,7 +20,7 @@
 ---
 
 # Why DocuSync? What are its benefits?? 🤔💭
-
+![enter image description here](https://media.giphy.com/media/1jajMAVf2vN9KxoFfw/giphy.gif)
   
 
 ### *Well, There are a couple reasons why using DocuSync might boost your productivity in the long run* 🏃🏻🏃🏻‍♀️
@@ -58,7 +58,7 @@
 ---
 
 # OK 👌🏻 , But how does DocuSync sync a Markdown file in Github to Postman?? 🤔💭
-
+![enter image description here](https://media.giphy.com/media/10yIEN8cMn4i9W/giphy.gif)
   
 
 - ### Well first of all, It uses both [Postman's](https://documenter.getpostman.com/view/631643/JsLs/?version=latest) and [Github's API](https://docs.github.com/en/rest) to send and take actions between them.
@@ -97,14 +97,26 @@
 
 > ### Delete Project in One Go Env -> *Used as an environment for Delete Project in One Go*
 
+### DocuSync consist of 5 [Mock Server](https://learning.postman.com/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) and each of them are explained below:
+
+> ### Workspace Documention Syncer Mock Server -> *Used as a Mock Server for Workspace Documentation Syncer*
+
+> ### Collection Documention Syncer Mock Server -> *Used as a Mock Server for Collection Documentation Syncer*
+
+> ### Request Documention Syncer Mock Server -> *Used as a Mock Server for Request Documentation Syncer*
+
+> ### Create Project in One Go Mock Server -> *Used as a Mock Server for Create Project in One Go*
+
+> ### Delete Project in One Go Mock Server -> *Used as a Mock Server for Delete Project in One Go*
+
 
 ### DocuSync consist of 3 [Monitors](https://learning.postman.com/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/) and each of them are explained below:
 
-> ### Workspace Documention Syncer Monitors -> *Used as an environment for Workspace Documentation Syncer*
+> ### Workspace Documention Syncer Monitors -> *Used as a monitor for Workspace Documentation Syncer*
 
-> ### Collection Documention Syncer Monitors -> *Used as an environment for Collection Documentation Syncer*
+> ### Collection Documention Syncer Monitors -> *Used as a monitor for Collection Documentation Syncer*
 
-> ### Request Documention Syncer Monitors -> *Used as an environment for Request Documentation Syncer*
+> ### Request Documention Syncer Monitors -> *Used as a monitor for Request Documentation Syncer*
 
 #### *[Note: Since the Create Project in One Go and Delete Project in One Go does not need a Monitor they were not created]*
 ---
@@ -113,7 +125,7 @@
 - ### All the Workspace, Collection and the Request used in Docusync Should be unique as DocuSync searches through your Postman Account and finds the resource manually. So there might occur a concurrency problem if there are two are more Workspace, Collection in your Postman Account with a same name.
 - ### Take a look into each environments and fill out according to the instructions provided in the placeholder descriptions of each environmental variables.
 ---
-## ❤️ [If you think DocuSync is useful to you and you found value in it. Contribute to this public workspace]
+## ❤️ [If you think DocuSync is useful to you and you found value in it. Contribute to this public workspace.]
 ---
 # References: 📄
 #### *[Get Github API Token](https://github.com/settings/tokens)*
