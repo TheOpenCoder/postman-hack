@@ -1,7 +1,7 @@
 
 ---
 
-# Elevator Pitch:
+# Elevator Pitch: 💯
 
 > ### *\"We developers have heard from time to time that documentation is more important than the code itself. So is the documentation for APIs. [Postman provides a markdown editor](https://learning.postman.com/docs/collaborating-in-postman/commenting-on-collections/#commenting-on-a-collection) to document a Workspace, Collection, or even a Request and I have been contemplating for a while on how to integrate version controlling with Postman's Documentation editor. That is where [Github](https://github.com/) comes to play. How about a markdown file in your Github repository that syncs automatically with your Postman workspace leveraging the power of [Postman's monitors](https://learning.postman.com/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/).\"* :smiley:
 
@@ -15,15 +15,15 @@
 
   
 
-### *I will try to answer these questions definetively in this documentation.*
+### *I will try to answer these questions definitively in this documentation.*
 
 ---
 
-# Why use this Workspace? What are its benefits??
+# Why DocuSync? What are its benefits?? 🤔💭
 
   
 
-### *Well, There are a couple reasons why using this workspace might boost your productivity in the long run*
+### *Well, There are a couple reasons why using DocuSync might boost your productivity in the long run* 🏃🏻🏃🏻‍♀️
 
   
 
@@ -41,7 +41,7 @@
 
 ---
 
-# Power of Postman's Monitor and Github's Version Controlling:
+# Power 💪🏻 of Postman's Monitor 🖥️ and Github's Version Controlling: 
 
   
 
@@ -57,7 +57,7 @@
 
 ---
 
-# OK, But how does this Workspace sync a Markdown file in Github to Postman??
+# OK 👌🏻 , But how does DocuSync sync a Markdown file in Github to Postman?? 🤔💭
 
   
 
@@ -65,15 +65,13 @@
 
 - ### And for that reason it requires the User's API Key.
 
-- ### This Workspace uses Postman Monitor for constantly checking for new updates in [Github](https://github.com/) file and syncing with Postman.
+- ### Docusync uses Postman Monitor for constantly checking for new updates in [Github](https://github.com/) file and syncing with Postman.
 
 ---
 
-# Workspace Briefing:
+# Workspace Briefing: ⏳
 
-  
-
-### This Workspace contains 5 Collections and each of them are explained below.
+### DocuSync contains 5 [Collections](https://learning.postman.com/docs/getting-started/creating-the-first-collection/) and each of them are explained below:
 
 > ### Workspace Documentation Syncer -> *Used to Document a Workspace in Postman*
 
@@ -85,11 +83,37 @@
 
 > ### Delete Project in One Go -> *Used to delete a Postman Workspace and a Github Repo in one go*
 
-### The Workspace consist of 5 Environment and each of them are explained below.
+### DocuSync consist of 5 [Environment](https://learning.postman.com/docs/sending-requests/managing-environments/) and each of them are explained below:
+
+> ### Workspace Documention Syncer Env -> *Used as an environment for Workspace Documentation Syncer*
+
+> ### Collection Documention Syncer Env -> *Used as an environment for Collection Documentation Syncer*
+
+> ### Request Documention Syncer Env -> *Used as an environment for Request Documentation Syncer*
+
+> ### Create Project in One Go Env -> *Used as an environment for Create Project in One Go*
+
+> ### Delete Project in One Go Env -> *Used as an environment for Delete Project in One Go*
+
+
+### DocuSync consist of 3 [Monitors](https://learning.postman.com/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/) and each of them are explained below:
+
+> ### Workspace Documention Syncer Monitors -> *Used as an environment for Workspace Documentation Syncer*
+
+> ### Collection Documention Syncer Monitors -> *Used as an environment for Collection Documentation Syncer*
+
+> ### Request Documention Syncer Monitors -> *Used as an environment for Request Documentation Syncer*
+
+#### *[Note: Since the Create Project in One Go and Delete Project in One Go does not need a Monitor they were not created]*
+---
+# Points to Note: ❌
+- ### Use the right Environment, Mock Server and Monitor for the right Collection. The Pairs are mentioned above.
+- ### All the Workspace, Collection and the Request used in Docusync Should be unique as DocuSync searches through your Postman Account and finds the resource manually. So there might occur a concurrency problem if there are two are more Workspace, Collection in your Postman Account with a same name.
+- ### Take a look into each environments and fill out according to the instructions provided in the placeholder descriptions of each environmental variables.
 
 ---
-# References:
-####  *[Learn MarkDown](https://www.markdownguide.org/cheat-sheet/)*
+# References: 📄
 #### *[Get Github API Token](https://github.com/settings/tokens)*
 #### *[Get Postman API Key](https://learning.postman.com/docs/developer/intro-api/)*
+####  *[Learn MarkDown](https://www.markdownguide.org/cheat-sheet/)*
 
